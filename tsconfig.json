@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "jsx": "react", // ou "react-jsx" para React 17+
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "baseUrl": "./src",
+    "paths": {
+      "@styles/*": ["styles/*"]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/@types/**/*.d.ts"
+  ]
+}
